@@ -12,15 +12,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Formulario"
         tools:targetApi="31">
+
+        <!-- Actividad Principal (Formulario) -->
         <activity
-            android:name=".MainActivity"
+            android:name=".FormularioActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- REGISTRO DE LA SEGUNDA ACTIVIDAD (Lo que pide la imagen) -->
+        <activity android:name=".ResumenActivity" />
+
     </application>
 
 </manifest>
